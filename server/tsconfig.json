@@ -12,7 +12,9 @@
     "sourceMap": false,
     "outDir": "./dist",
     "baseUrl": "./",
-    "incremental": true
+    "incremental": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   },
   "exclude": ["node_modules", "dist", "cache"]
 }

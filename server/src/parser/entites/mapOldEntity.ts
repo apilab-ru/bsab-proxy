@@ -3,9 +3,9 @@ import { ApiProperty } from '@nestjs/swagger';
 import { Difficult } from '../const';
 
 @Entity({
-    name: 'maps',
+    name: 'maps_0',
 })
-export class MapEntity {
+export class MapOldEntity {
 
     @PrimaryGeneratedColumn()
     id: number;
