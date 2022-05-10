@@ -1,0 +1,38 @@
+.FilterDropdown {
+  width: 210px;
+
+  .list {
+    display: flex;
+    flex-direction: column;
+
+    .line {
+      display: flex;
+    }
+
+    button {
+      justify-content: flex-start;
+      padding-left: 22px;
+      text-transform: none;
+      display: flex;
+      flex: 1;
+
+      &.-active {
+        background: var(--color-primary);
+        color: var(--color-primary-inverted);
+      }
+
+      &.-negative {
+        width: 70px;
+        flex: 0;
+        justify-content: center;
+        padding-left: 8px;
+        color: var(--color-secondary-dark);
+        font-weight: bold;
+      }
+    }
+
+    .positive {
+      margin-left: auto;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.FilterChip {
+  display: flex;
+  border-radius: 12px;
+  background-color: var(--color-secondary-light);
+  color: var(--color-secondary-inverted);
+  overflow: hidden;
+  align-items: center;
+  padding-right: 2px;
+
+  &.-not {
+    background-color: var(--color-secondary-opposite);
+  }
+
+  .name {
+    padding: 4px 10px 6px 12px;
+    background-color: var(--color-secondary-dark);
+  }
+
+  .value {
+    padding: 4px 4px 6px 10px;
+    font-size: 16px;
+  }
+
+  & + & {
+    margin-left: 6px;
+  }
+
+  button {
+    padding: 4px;
+    font-size: 15px;
+    width: 22px;
+    height: 22px;
+    font-family: monospace;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-secondary-inverted);
+    background: var(--color-secondary);
+  }
+}

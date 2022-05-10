@@ -1,0 +1,24 @@
+.Header {
+  background: var(--color-primary);
+  color: var(--color-primary-inverted);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 8px 16px;
+  box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
+  box-sizing: border-box;
+  min-height: 56px;
+
+  .content {
+    width: var(--size-content);
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+
+  .Filter {
+    margin-left: 24px;
+    flex: 1;
+  }
+}

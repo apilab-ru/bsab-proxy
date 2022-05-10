@@ -1,0 +1,14 @@
+// https://mui.com/material-ui/customization/color/
+
+@mixin colors() {
+  --color-primary-dark: #2c387e;
+  --color-primary: #3f51b5;
+  --color-primary-light: #6573c3;
+  --color-primary-inverted: #fff;
+  --color-background: #fafafa;
+  --color-secondary-dark: #ab003c;
+  --color-secondary: #f50057;
+  --color-secondary-light: #f73378;
+  --color-secondary-inverted: #fff;
+  --color-secondary-opposite: #b78698;
+}
